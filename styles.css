@@ -1,0 +1,66 @@
+body {
+   background-color: rgb(81, 30, 30);
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: space-between;
+   margin: 0px;
+   font-family: 'Geneva', 'Lucida Sans Regular', 
+   'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+   text-align: center;
+   padding: 16px;
+   font-size: 20px;
+   background-color: rgb(186, 90, 132);
+   border: dashed 3px goldenrod
+}
+
+.footer {
+   text-align: center;
+   padding: 16px;
+   font-size: 12px;
+   background-color: rgb(186, 90, 132);
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   height: 30rem;
+   justify-content: space-around;
+   margin-bottom: -80px;
+}
+
+.question {
+   align-self: center;
+   padding: 12px;
+   background-color: rgb(186, 90, 132);
+   border: solid 0px;
+   border-radius: 6px;
+   margin-bottom: 100px;
+}
+
+.buttonContainer {
+   display: flex;
+   justify-content: center;
+   gap: 22px;
+}
+
+.next {
+   align-self: center;
+   padding: 20px 24px;
+   border-radius: 180px;
+}
+
+button {
+   padding: 34px 34px;
+   border: solid 3px rgb(186, 90, 132);
+   border-radius: 6px;
+   background-color: rgb(252, 167, 205);
+}
+
+button:hover {
+   background-color: rgb(151, 89, 117);
+}
