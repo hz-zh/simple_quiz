@@ -53,6 +53,7 @@ function checkChoice(userChoice, answer) {
             }
          else nextQuestion(1);
          }
+         console.log(heartsArr);
       }
 }
 
@@ -76,9 +77,7 @@ function nextQuestion(noChoiceFlag) {
 }
 
 function removeHeart() {
-  // NodeList.prototype.forEach = Array.prototype.forEach;
-   hearts.removeChild(hearts.firstChild);
-   hearts.removeChild(hearts.firstChild);
+   hearts.removeChild(hearts.lastElementChild);
 }
 
 function questions() {

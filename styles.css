@@ -1,5 +1,5 @@
 body {
-   background-color: rgba(0, 0, 0, 0.861);
+   background-color: rgb(15, 16, 19);
    height: 100vh;
    display: flex;
    flex-direction: column;
@@ -75,18 +75,18 @@ button:hover {
    height: fit-content;
    width: fit-content;
    display: grid;
-   grid-template-columns: 45px 45px 45px 45px 45px;
+   grid-template-columns: 55px 55px 55px 55px 55px;
    grid-gap: 10px;
    position: relative;
    align-self: flex-end;
    padding: 16px;
+   background-color: rgba(19, 55, 11, 0.206);
  }
  
  .heart {
-   height: 45px;
-   width: 45px;
+   height: 55px;
+   width: 55px;
    position:relative;
-   background-color: brown;
  }
 
  
